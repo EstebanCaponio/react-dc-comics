@@ -109,6 +109,7 @@ main a:hover {
 
 .container-links {
   padding-top: 40px;
+  padding-bottom: 60px;
   display: flex;
   flex-direction: row;
   color: rgba(255, 255, 255, 0.5);
@@ -128,4 +129,38 @@ ul {
 
 .list-title2 {
   padding-top: 25px;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  padding: 30px 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: 15px;
+  border: 2px solid #0282f9;
+  color: white;
+  font-weight: bold;
+}
+
+.container-footer-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.btn-follow {
+  color: #0282f9;
+  font-weight: bold;
+}
+
+.icons-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }

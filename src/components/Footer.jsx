@@ -4,6 +4,11 @@ import subscription from "../assets/img/buy-comics-subscriptions.png";
 import shop from "../assets/img/buy-comics-shop-locator.png";
 import visa from "../assets/img/buy-dc-power-visa.svg";
 import dcLogoBig from "../assets/img/dc-logo-bg.png";
+import facebook from "../assets/img/footer-facebook.png";
+import twitter from "../assets/img/footer-twitter.png";
+import youtube from "../assets/img/footer-youtube.png";
+import pinterest from "../assets/img/footer-pinterest.png";
+import periscope from "../assets/img/footer-periscope.png";
 
 function Footer() {
     return (<footer>
@@ -103,7 +108,19 @@ function Footer() {
                 </div>
             </div>
         </div>
-        <div></div>
+        <div className="footer-bottom">
+            <div className="btn"> SIGN-UP NOW!</div>
+            <div className="container-footer-bottom">
+                <div className="btn-follow">FOLLOW US</div>
+                <ul className="icons-list">
+                    <li><img src={facebook} alt="" /></li>
+                    <li><img src={twitter} alt="" /></li>
+                    <li><img src={youtube} alt="" /></li>
+                    <li><img src={pinterest} alt="" /></li>
+                    <li><img src={periscope} alt="" /></li>
+                </ul>
+            </div>
+        </div>
 
     </footer>);
 }
