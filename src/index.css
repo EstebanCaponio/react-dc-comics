@@ -93,3 +93,39 @@ main a:hover {
 .card-img img {
   height: 100%;
 }
+
+.footer-center {
+  background-image: url(./assets/img/footer-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding: 0px 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-links {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  color: rgba(255, 255, 255, 0.5);
+  gap: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.list-title {
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.list-title2 {
+  padding-top: 25px;
+}
