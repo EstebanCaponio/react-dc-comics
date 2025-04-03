@@ -20,6 +20,9 @@ header {
   list-style-type: none;
   gap: 30px;
   font-weight: bold;
+}
+
+.ul-menu a {
   color: black;
 }
 
@@ -29,7 +32,6 @@ header {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 /* main */
@@ -51,4 +53,43 @@ main i {
 
 main a:hover {
   color: #0282f9;
+}
+
+/* footer */
+
+.footer-top {
+  padding: 55px 360px;
+  background-color: #0282f9;
+}
+
+.f-top-menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 70px;
+  justify-content: space-between;
+}
+
+.f-top-menu a {
+  color: white;
+  font-size: 14px;
+}
+
+.f-top-menu li:hover {
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-img {
+  height: 50px;
+}
+
+.card-img img {
+  height: 100%;
 }
