@@ -5,6 +5,7 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* header */
 header {
   padding: 20px 320px;
   display: flex;
@@ -19,6 +20,7 @@ header {
   list-style-type: none;
   gap: 30px;
   font-weight: bold;
+  color: black;
 }
 
 .ul-menu a:hover {
@@ -28,4 +30,25 @@ header {
 a {
   text-decoration: none;
   color: black;
+}
+
+/* main */
+main {
+  padding: 55px 320px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+main a {
+  color: white;
+}
+
+main i {
+  vertical-align: middle;
+}
+
+main a:hover {
+  color: #0282f9;
 }
