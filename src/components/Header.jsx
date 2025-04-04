@@ -1,22 +1,25 @@
 import Logo from "./Logo";
 
-function Header() {
+function Header(props) {
+
+    const menuNav = props.NavBarMenu;
+
     return (
         <>
             <header className="container-main">
                 <Logo />
                 <nav>
                     <ul className="ul-menu">
-                        <li><a href="#">CHARACTERS</a></li>
-                        <li><a href="#">COMICS</a></li>
-                        <li><a href="#">MOVIES</a></li>
-                        <li><a href="#">TV</a></li>
-                        <li><a href="#">GAMES</a></li>
-                        <li><a href="#">COLLECTIBLES</a></li>
-                        <li><a href="#">VIDEOS</a></li>
-                        <li><a href="#">FANS</a></li>
-                        <li><a href="#">NEWS</a></li>
-                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#">{menuNav[0]}</a></li>
+                        <li><a href="#">{menuNav[1]}</a></li>
+                        <li><a href="#">{menuNav[2]}</a></li>
+                        <li><a href="#">{menuNav[3]}</a></li>
+                        <li><a href="#">{menuNav[4]}</a></li>
+                        <li><a href="#">{menuNav[5]}</a></li>
+                        <li><a href="#">{menuNav[6]}</a></li>
+                        <li><a href="#">{menuNav[7]}</a></li>
+                        <li><a href="#">{menuNav[8]}</a></li>
+                        <li><a href="#">{menuNav[9]}</a></li>
                     </ul>
                 </nav>
             </header>

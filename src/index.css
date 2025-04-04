@@ -94,6 +94,14 @@ main a:hover {
   height: 100%;
 }
 
+.card-w {
+  width: 40px;
+}
+
+.card-w img {
+  width: 100%;
+}
+
 .footer-center {
   background-image: url(./assets/img/footer-bg.jpg);
   background-size: cover;

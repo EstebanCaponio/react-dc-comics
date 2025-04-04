@@ -48,7 +48,7 @@ function Footer() {
                     </div>
                 </li>
                 <li className="card">
-                    <div className="card-img">
+                    <div className="card-w">
                         <img src={visa} alt="" />
                     </div>
                     <div>
