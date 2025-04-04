@@ -2,7 +2,7 @@ import Logo from "./Logo";
 
 function Header(props) {
 
-    const menuNav = props.NavBarMenu;
+    const menuNav = props.navBarMenu;
 
     return (
         <>

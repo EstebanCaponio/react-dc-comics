@@ -2,16 +2,18 @@ import Footer from "./components/footer"
 import Header from "./components/header"
 import Main from "./components/main"
 
-const NavBar = ["CHARACTERS", "COMICS", "MOVIES", "TV", "GAMES", "COLLECTIBLES", "VIDEOS", "FANS", "NEWS", "SHOP"];
+const navBar = ["CHARACTERS", "COMICS", "MOVIES", "TV", "GAMES", "COLLECTIBLES", "VIDEOS", "FANS", "NEWS", "SHOP"];
+
+const footerNav = ["DIGITAL COMICS", "DC MERCHANDISE", "SUBSCRIPTION", "COMIC SHOP LOCATOR", "DC POWER VISA"];
 
 function App() {
 
 
   return (
     <>
-      <Header NavBarMenu={NavBar} />
+      <Header navBarMenu={navBar} />
       <Main />
-      <Footer />
+      <Footer navBarFooter={footerNav} />
     </>
   )
 }

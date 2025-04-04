@@ -10,7 +10,10 @@ import youtube from "../assets/img/footer-youtube.png";
 import pinterest from "../assets/img/footer-pinterest.png";
 import periscope from "../assets/img/footer-periscope.png";
 
-function Footer() {
+function Footer(props) {
+
+    const footerNav = props.navBarFooter;
+
     return (<footer>
 
         <div className="footer-top">
@@ -20,7 +23,7 @@ function Footer() {
                         <img src={digital} alt="" />
                     </div>
                     <div>
-                        <a href="#">DIGITAL COMICS</a>
+                        <a href="#">{footerNav[0]}</a>
                     </div>
                 </li>
                 <li className="card">
