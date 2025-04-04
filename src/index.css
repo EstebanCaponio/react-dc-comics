@@ -47,6 +47,11 @@ main a {
   color: white;
 }
 
+header a:hover {
+  padding-bottom: 56px;
+  border-bottom: 5px solid #0282f9;
+}
+
 main i {
   vertical-align: middle;
 }
