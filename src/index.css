@@ -65,6 +65,8 @@ main a:hover {
 .footer-top {
   padding: 55px 360px;
   background-color: #0282f9;
+  position: relative;
+  z-index: 2;
 }
 
 .f-top-menu {
@@ -146,7 +148,7 @@ ul {
 }
 
 .image-dc {
-  width: 23%;
+  width: 560px;
   position: absolute;
   right: 290px;
   top: -110px;
