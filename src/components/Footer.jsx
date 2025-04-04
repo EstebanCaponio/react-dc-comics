@@ -107,7 +107,7 @@ function Footer(props) {
                     </div>
                 </div>
                 <div>
-                    <img src={dcLogoBig} alt="" />
+                    <img src={dcLogoBig} alt="" className="image-dc" />
                 </div>
             </div>
         </div>
