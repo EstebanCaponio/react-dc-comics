@@ -1,4 +1,4 @@
-import Footer from "./components/footer"
+import Footer from "./components/Footer";
 import Header from "./components/header"
 import Jumbotron from "./components/jumbotron";
 import Main from "./components/main";

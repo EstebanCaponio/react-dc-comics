@@ -212,6 +212,11 @@ ul {
   font-weight: bold;
 }
 
+.btn:hover {
+  cursor: pointer;
+  background-color: #0282f9;
+}
+
 .container-footer-bottom {
   display: flex;
   flex-direction: row;
@@ -222,6 +227,11 @@ ul {
 .btn-follow {
   color: #0282f9;
   font-weight: bold;
+}
+
+.btn-follow:hover {
+  cursor: pointer;
+  color: white;
 }
 
 .icons-list {
