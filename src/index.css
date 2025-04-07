@@ -43,6 +43,12 @@ main {
   font-weight: bold;
 }
 
+.jumbotron {
+  background-image: url(assets/img/jumbotron.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
 main a {
   color: white;
 }

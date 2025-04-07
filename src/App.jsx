@@ -1,6 +1,8 @@
 import Footer from "./components/footer"
 import Header from "./components/header"
-import Main from "./components/main"
+import Jumbotron from "./components/jumbotron";
+import Main from "./components/main";
+
 
 const navBar = ["CHARACTERS", "COMICS", "MOVIES", "TV", "GAMES", "COLLECTIBLES", "VIDEOS", "FANS", "NEWS", "SHOP"];
 
@@ -12,10 +14,11 @@ function App() {
   return (
     <>
       <Header navBarMenu={navBar} />
+      <Jumbotron />
       <Main />
       <Footer navBarFooter={footerNav} />
     </>
   )
 }
 
-export default App
+export default App;
