@@ -4,7 +4,7 @@ import Card from "./card";
 function Main() {
     return (
         <main>
-            <div className="cards-container">
+            <div>
                 <Card comics={comics} />
             </div>
         </main>
