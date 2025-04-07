@@ -37,7 +37,7 @@ a {
 /* main */
 main {
   padding: 55px 320px;
-  background-color: black;
+  background-color: #1c1c1c;
   color: white;
   font-size: 30px;
   font-weight: bold;
@@ -47,10 +47,7 @@ main {
   background-image: url(assets/img/jumbotron.jpg);
   height: 400px;
   background-size: cover;
-}
-
-main a {
-  color: white;
+  background-repeat: no-repeat;
 }
 
 header a:hover {
@@ -58,13 +55,22 @@ header a:hover {
   border-bottom: 5px solid #0282f9;
 }
 
-main i {
-  vertical-align: middle;
+/* .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+
 }
 
-main a:hover {
-  color: #0282f9;
+.card {
+  width: calc((100% - 50px) / 6);
 }
+
+card-img {
+  width: 100%;
+  display: block;
+} */
 
 /* footer */
 

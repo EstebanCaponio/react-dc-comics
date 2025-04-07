@@ -1,12 +1,14 @@
-function Main() {
-    return (<main>
-        {/* <a href="#">
-            <i className="fa-solid fa-arrow-right"></i>
-            Content goes here
-            <i className="fa-solid fa-arrow-left"></i>
-        </a> */}
+import comics from "../data/comics";
+import Card from "./card";
 
-    </main>);
+function Main() {
+    return (
+        <main>
+            <div className="cards-container">
+                <Card comics={comics} />
+            </div>
+        </main>
+    );
 }
 
 export default Main;
