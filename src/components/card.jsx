@@ -4,7 +4,7 @@ function Card({ comics }) {
 
         comics.map((card) =>
             <div className="comic-card">
-                <div className="comic-div-img">
+                <div>
                     <img className="comic-img" src={card.thumb} alt={card.title} />
                 </div>
                 <div>

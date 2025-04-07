@@ -84,6 +84,12 @@ header a:hover {
   font-weight: bold;
 }
 
+.btn-comic:hover {
+  cursor: pointer;
+  color: #0282f9;
+  background-color: white;
+}
+
 .series {
   position: absolute;
   top: -35px;
