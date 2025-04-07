@@ -4,6 +4,7 @@ import Card from "./card";
 function Main() {
     return (
         <main>
+            <div className="series">CURRENT SERIES</div>
             <div className="container-comics">
                 <Card comics={comics} />
             </div>

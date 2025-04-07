@@ -40,6 +40,7 @@ main {
   background-color: #1c1c1c;
   color: white;
   font-size: 16px;
+  position: relative;
 }
 
 .jumbotron {
@@ -81,6 +82,17 @@ header a:hover {
   background-color: #0282f9;
   display: inline-block;
   font-weight: bold;
+}
+
+.series {
+  position: absolute;
+  top: -35px;
+  left: 300px;
+  font-size: 28px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #0282f9;
+  padding: 15px 30px;
 }
 
 /* footer */
