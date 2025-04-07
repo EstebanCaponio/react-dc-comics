@@ -3,9 +3,9 @@ function Card({ comics }) {
     return (
 
         comics.map((card) =>
-            <div>
-                <div>
-                    <img src={card.thumb} alt={card.title} />
+            <div className="comic-card">
+                <div className="comic-div-img">
+                    <img className="comic-img" src={card.thumb} alt={card.title} />
                 </div>
                 <div>
                     {card.series}
